@@ -1,0 +1,29 @@
+.header{
+    display: grid;
+    grid-template-areas:
+
+    "h1 ea . ."
+    " p . .ma"
+    "p pl . ."
+;
+    background-image:url(imgPlaneta/backHeader.png);
+}
+.h1{
+    grid-area: h1;
+    color: lavender;
+    font-family: Marker Felt, fantasy;
+}
+.p{
+    grid-area: p;
+    color: lavender;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+}
+.earth{
+    grid-area: ea;
+}
+.mars{
+    grid-area: ma;
+}
+.pluton{
+    grid-area: pl;
+}

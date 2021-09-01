@@ -1,0 +1,28 @@
+.abouts{
+    display: grid;
+    grid-template-areas:
+
+    ". .h. ."
+    "o. . . ."
+    ". .t. ."
+    ". . . .th"
+
+;
+    background: linear-gradient(1deg, #0a8fe5, #000000);
+}
+.h{
+    grid-area: h;
+    color: #cdcde7;
+}
+.one{
+    grid-area: o;
+    color: #cdcde7;
+}
+.two{
+    grid-area: t;
+    color: #cdcde7;
+}
+.three{
+    grid-area: th;
+    color: #cdcde7;
+}
