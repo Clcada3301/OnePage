@@ -8,7 +8,7 @@
     ". . . .th"
 
 ;
-    background: linear-gradient(1deg, #0a8fe5, #000000);
+
 }
 .h{
     grid-area: h;
@@ -17,12 +17,16 @@
 .one{
     grid-area: o;
     color: #cdcde7;
+    box-shadow: 0 0 10px rgba(40, 67, 224, 0.99);
 }
 .two{
     grid-area: t;
     color: #cdcde7;
+
+    box-shadow: 0 0 10px rgba(40, 67, 224, 0.99);
 }
 .three{
     grid-area: th;
     color: #cdcde7;
+    box-shadow: 0 0 10px rgba(40, 67, 224, 0.99);
 }

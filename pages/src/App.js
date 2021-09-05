@@ -4,14 +4,21 @@ import AppMeny from "./meny/AppMeny";
 import Header from "./header/header";
 import About from "./about/about";
 import Project from "./project/project";
+import Talk from "./talk/talk";
+import Contact from "./contact/contact";
 
 function App() {
   return (
     <div className='app'>
-        <AppMeny/>
+
+            <AppMeny/>
+
+
         <Header/>
         <About/>
         <Project/>
+        <Talk/>
+        <Contact/>
     </div>
   );
 }

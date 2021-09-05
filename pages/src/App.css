@@ -1,0 +1,7 @@
+.app{
+    background: -webkit-linear-gradient(225deg, rgb(32, 30, 184) 50%, rgb(17, 51, 97) 82%, rgb(255, 0, 0));
+    background: -moz-linear-gradient(225deg, rgb(32, 30, 184) 50%, rgb(17, 51, 97) 82%, rgb(255, 0, 0));
+    background: linear-gradient(225deg, rgb(32, 30, 184) 50%, rgb(17, 51, 97) 82%, rgb(255, 0, 0));
+
+
+}

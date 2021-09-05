@@ -1,7 +1,11 @@
+import SpaceProject from "./spaceProject";
+import "./project.css"
 function Project() {
     return (
-        <div className='app'>
-ggggggggggggg
+        <div className='projectApp'>
+ <div className='project'>
+     <SpaceProject/>
+ </div>
         </div>
     );
 }

@@ -1,25 +1,28 @@
 .AppMeny{
-
-    background: linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, radial-gradient(at 50% 0, #484847, #090909);
-    background-size: 0.275em 0.275em, 0.975em 0.275em, 100% 100%;
     display: grid;
-    grid-template-areas:
-
-". ab pr ta co"
-
-
-;
+    justify-content: center;
+    grid-template-areas: "a..p..t..c";
+    position: fixed; padding-left: 400px;
 }
-.about{
-    grid-area: ab;
+.buttonMeny{
+    padding-top: 15px;
+}
+.buttonMeny button{
 
 }
-.project{
-    grid-area: pr;
+
+.blockAbout{
+    padding-right: 20px;
+    grid-area: a;
 }
-.talk{
-    grid-area: ta;
+.blockProject{
+    padding-right: 20px;
+grid-area: p;
 }
-.contact{
-    grid-area: co;
+.blockTalk{
+    padding-right: 20px;
+grid-area: t;
+}
+.blockContact{
+grid-area: c;
 }

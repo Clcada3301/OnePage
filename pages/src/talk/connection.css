@@ -1,0 +1,51 @@
+.conect {
+    justify-content: center;
+    display: grid;
+
+}
+.apps{
+    height: 1000px;
+}
+.conect input{
+    background-color: #fcb124;
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+    border-bottom: #cdcde7;
+    border-right: #cdcde7;
+    color: red;
+    font-family: Damascus;
+    font-size: 4.2mm;
+}
+input::placeholder{
+    color: red;
+    font-family: "Courier New";
+    font-size: 3.8mm;
+}
+.inputName{
+    padding-top: 400px;
+
+
+}
+.inputNumber{
+    padding-top: 30px;
+
+}
+.inputMail{
+    padding-top: 30px;
+ ;
+}
+.buttons{
+padding-top: 30px;
+padding-left: 320px;
+
+}
+.button{
+
+    width: 100px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #0286ff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+
+}

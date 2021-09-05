@@ -7,16 +7,16 @@ import './AppMeny.css'
 function AppMeny() {
     return (
         <div className='AppMeny'>
-            <div className='about'>
+            <div className='blockAbout'>
                 <About/>
             </div>
-            <div className='project'>
+            <div className='blockProject'>
                 <Project/>
             </div>
-            <div className='talk'>
+            <div className='blockTalk'>
                 <Talk/>
             </div>
-            <div className='contact'>
+            <div className='blockContact'>
                 <Contact/>
             </div>
 

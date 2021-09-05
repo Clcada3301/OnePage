@@ -1,0 +1,24 @@
+.projects{
+display: grid;
+
+   grid-template-areas:
+
+"...b..."
+
+
+;
+    height: 500px;
+    padding-top: 250px;
+    justify-content: center;
+}
+
+.projectFlex{
+    width: 200px;
+    height: 200px;
+    grid-area: b;
+    color: #0a8fe5;
+    border: solid;
+    overflow: hidden;
+    word-wrap: break-word;
+
+}

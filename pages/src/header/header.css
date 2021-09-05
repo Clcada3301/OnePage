@@ -6,9 +6,10 @@
     " p . .ma"
     "p pl . ."
 ;
-    background-image:url(imgPlaneta/backHeader.png);
+
 }
 .h1{
+    padding-top: 130px;
     grid-area: h1;
     color: lavender;
     font-family: Marker Felt, fantasy;
@@ -19,6 +20,7 @@
     font-family:Brush Script MT, Brush Script Std, cursive;
 }
 .earth{
+    padding-top: 70px;
     grid-area: ea;
 }
 .mars{
